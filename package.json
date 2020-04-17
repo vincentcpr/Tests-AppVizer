@@ -1,0 +1,36 @@
+{
+  "name": "angular-protractor-cucumber",
+  "version": "1.0.0",
+  "description": "Feature-driven end-to-end-testing",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spektrakel-blog/angular-protractor-cucumber"
+  },
+  "author": "David Herges <david@spektrakel.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/cucumber": "^4.0.0",
+    "@types/jasmine": "^3.5.10",
+    "@types/jquery": "^3.4.1",
+    "chai": "^4.1.0",
+    "cucumber": "^2.3.1",
+    "cucumber-html-reporter": "^5.2.0",
+    "protractor": "^5.1.2",
+    "protractor-cucumber-framework": "^4.0.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.4.2"
+  },
+  "scripts": {
+    "driver": "webdriver-manager update&webdriver-manager start",
+    "e2e": "protractor conf.js"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.34",
+    "expect": "^25.3.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "pretty": "^2.0.0"
+  }
+}

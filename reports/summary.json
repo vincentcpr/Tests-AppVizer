@@ -1,0 +1,300 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Tests de la todo liste",
+    "tags": [],
+    "uri": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\features\\non-reg.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Ajout d'une tâche",
+        "tags": [],
+        "id": "tests-de-la-todo-liste;ajout-d'une-tâche",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Je suis sur le site de la todolist",
+            "result": {
+              "status": "passed",
+              "duration": 314
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "J'ajoute la tâche nommée 'foo' dans ma todolist",
+            "result": {
+              "status": "passed",
+              "duration": 84
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Je vois la tâche 'foo' dans ma liste",
+            "result": {
+              "status": "passed",
+              "duration": 185
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\node_modules\\cucumber\\lib\\index.js:176"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Modification du statut d'une tâche",
+        "tags": [],
+        "id": "tests-de-la-todo-liste;modification-du-statut-d'une-tâche",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Je suis sur le site de la todolist",
+            "result": {
+              "status": "passed",
+              "duration": 255
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Je change d'état la première tâche dans ma todolist en réalisée",
+            "result": {
+              "status": "passed",
+              "duration": 56
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Je vois la première tâche comme reéalisée dans ma liste",
+            "result": {
+              "status": "passed",
+              "duration": 106
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\node_modules\\cucumber\\lib\\index.js:176"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Modification du statut d'une tâche",
+        "tags": [],
+        "id": "tests-de-la-todo-liste;modification-du-statut-d'une-tâche",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Je suis sur le site de la todolist",
+            "result": {
+              "status": "passed",
+              "duration": 229
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Je change d'état la première tâche dans ma todolist en non-réalisée",
+            "result": {
+              "status": "passed",
+              "duration": 52
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Je vois la première tâche comme non-reéalisée dans ma liste",
+            "result": {
+              "status": "passed",
+              "duration": 178
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\node_modules\\cucumber\\lib\\index.js:176"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Suppression d'une tâche",
+        "tags": [],
+        "id": "tests-de-la-todo-liste;suppression-d'une-tâche",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Je suis sur le site de la todolist",
+            "result": {
+              "status": "passed",
+              "duration": 233
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Je supprime la tâche de ma todolist",
+            "result": {
+              "status": "passed",
+              "duration": 337
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Je ne vois aucune tâche dans ma liste",
+            "result": {
+              "status": "passed",
+              "duration": 71
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\e2e\\steps\\search.steps.ts:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\vince\\Documents\\TestsAppVizer\\Test-Appvizer\\node_modules\\cucumber\\lib\\index.js:176"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "tests-de-la-todo-liste"
+  }
+]
