@@ -9,6 +9,7 @@ export class AppPage {
   public async navigateTo() {
     var defer = protractor.promise.defer();
 
+    //browser.driver.get('http://angular.io/').then(function () {
     browser.driver.get('http://qa.appvizer.net/').then(function () {
       browser.wait(EC.visibilityOf(element(by.css('.header h1'))), 6000, "titre").then(function (visibility) {
         defer.fulfill(visibility)
